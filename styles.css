@@ -532,6 +532,10 @@ SMALL PHONES, TABLETS, LARGE SMARTPHONES
         padding-right: 30px;
         left: 30px;
     }
+
+    .first-name {
+        display: none;
+    }
 }
 
 /*
@@ -569,5 +573,9 @@ SMALL PHONES
     .project__description--sub-title {
         text-align: center;
         margin: 12px 0;
+    }
+
+    .personal__logo {
+        margin-top: 0;
     }
 }
