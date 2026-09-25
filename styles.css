@@ -82,7 +82,7 @@ li {
     padding: 0 12px;
 }
 
-.text-purple {
+.text-blue {
     color: #08a6df;
 }
 
@@ -134,11 +134,67 @@ nav {
 }
 
 .personal__logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-size: 24px;
     color: #08a6df;
+    background-color: black;
     margin: 0 12px;
+    margin-top: 20px;
+    padding: 8px 24px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
     font: bold;
     letter-spacing: 0.5px;
+}
+
+.first-name {
+    color: #fff;
+    animation: name-effect 6s linear infinite;
+    transition: smooth 3s ease;
+    font-size: 24px;
+    letter-spacing: 4px;
+}
+
+.last-name {
+    color: #fff;
+    animation: name-effect 6s linear infinite;
+    animation-delay: 3s;
+    transition: smooth 3s ease;
+}
+
+.header__logo--img-wrapper {
+    width: 140px;
+    height: 44px;
+    padding: 0 12px;
+}
+
+.header__logo--img {
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes name-effect {
+    0% {
+        color: #fff;
+    }
+
+    25% {
+        color: #49ccfc;
+    }
+    50% {
+        color: #3b65b3;
+    }
+
+    75% {
+        color: #49ccfc;
+    }
+    100% {
+        color: #fff;
+    }
 }
 
 /*
