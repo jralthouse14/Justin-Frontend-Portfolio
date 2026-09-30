@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(201, 230, 248);
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -83,7 +87,7 @@ li {
 }
 
 .text-blue {
-    color: #08a6df;
+    color: #047da9;
 }
 
 section:nth-child(even) {
@@ -307,6 +311,10 @@ ABOUT ME
 TECH - STACK
 
 */
+
+#languages {
+    background-color: rgb(226, 233, 237);
+}
 
 .language__img {
     width: 100%;
